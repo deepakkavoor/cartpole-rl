@@ -5,4 +5,4 @@ The above code is fairly simple and was intended to practically understand basic
 
 To fully understand the code please refer to:
 1. [Matthew Chan's post](https://medium.com/@tuzzer) for some parameter values like learning rate decay, state dimensions, etc.
-2. Chapters 5 and 6 of \textit{Reinforcement Learning 2nd Edition by Barto and Sutton}
+2. Chapters 5 and 6 of <i>Reinforcement Learning 2nd Edition by Barto and Sutton</i>
