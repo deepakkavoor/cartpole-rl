@@ -4,5 +4,5 @@ Modelling the environment as a Markov Decision Process, implemented a simple Q-L
 The above code is fairly simple and was intended to practically understand basic Reinforcement Learning algorithms at a beginner level.
 
 To fully understand the code please refer to:
-1. [Matthew Chan's post](https://medium.com/@tuzzer) for some parameter values like learning rate decay, state dimensions, etc.
-2. Chapters 5 and 6 of <i>Reinforcement Learning 2nd Edition by Barto and Sutton</i>
+1. [Matthew Chan's post](https://medium.com/@tuzzer) for some parameter values like learning rate decay and state dimensions.
+2. Chapters 5 and 6 of <i>Reinforcement Learning 2nd Edition, by Barto and Sutton.</i>
