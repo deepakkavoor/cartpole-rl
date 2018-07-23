@@ -22,9 +22,9 @@ The REINFORCE, REINFORCE with baseline, and Actor Critic Methods are all improve
 
 The function approximators for both the Actor and the Critic are 2-layered Neural Networks. The learning rate of Critic is set slightly higher than the Actor to get faster convergence.
 
-Gradient update for Actor: grad[ log Pi(state, action) * TD_error ]
+<b>Gradient update for Actor</b>: grad[ log Pi(state, action) * TD_error ]
 
-Gradient update for Critic: grad[ reward + gamma * ( V(next_state) - V(curr_state) ) ]
+<b>Gradient update for Critic</b>: grad[ reward + gamma * V(next_state) - V(curr_state) ]
 
 
 To fully understand the code please refer to:
