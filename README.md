@@ -13,7 +13,7 @@ Modelling the environment as a Markov Decision Process, implemented a simple Q-L
 
 To fully understand the code please refer to:
 1. [Matthew Chan's post](https://medium.com/@tuzzer) for some parameter values like learning rate decay and state dimensions.
-2. Chapters 5 and 6 of <i>Reinforcement Learning: An Introduction, 1st Edition, by Barto and Sutton.</i>
+2. Chapters 5 and 6 of <i>Reinforcement Learning: An Introduction, 2nd Edition, by Barto and Sutton.</i>
 
 
 ## Actor-Critic
@@ -30,4 +30,4 @@ The function approximators for both the Actor and the Critic are 2-layered Neura
 To fully understand the code please refer to:
 1. [This amazing post](https://danieltakeshi.github.io/2017/03/28/going-deeper-into-reinforcement-learning-fundamentals-of-policy-gradients/), which covers almost all the basic math needed for understanding policy gradients, like <b>Policy Gradient Theorem</b> and the <b>Log Derivative Trick</b>.
 2. This [Medium post](https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f) by Thomas Simonini to understand fundamentals of policy gradients.
-3. Chapters 7 and 9 of <i>Reinforcement Learning: An Introduction, 1st Edition, by Barto and Sutton.</i> 
+3. Chapters 7 and 9 of <i>Reinforcement Learning: An Introduction, 2nd Edition, by Barto and Sutton.</i> 
