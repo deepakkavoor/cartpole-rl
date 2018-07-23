@@ -12,7 +12,7 @@ class CartPole():
 	def __init__(self, buckets = (1, 1, 6, 3,), n_episodes = 1000, solved_t = 195,
 				min_epsilon = 0.1, min_alpha = 0.1, gamma = 0.99):
 		self.buckets = buckets  #discrete values for each feature space dimension
-					#(position, velocity, angle, angular velocity)
+								#(position, velocity, angle, angular velocity)
 		self.n_episodes = n_episodes  #training episodes
 		self.min_alpha = min_alpha
 		self.min_epsilon = min_epsilon
