@@ -18,7 +18,7 @@ To fully understand the code please refer to:
 
 ## Actor-Critic
 
-The REINFORCE, REINFORCE with baseline, and Actor Critic Methods are all improvements on the Policy Gradient Algorithm. REINFORCE uses Monte Carlo Methods to use sum of discounted rewards, or "return", as the <i>advantage</i> function. REINFORCE with baseline improves upon this by using a value function as the baseline for each state, and this helps in reducing variance. However, Actor Critic Methods uses Temporal Difference Learning to include bootstrapping, and thus bring about bias on the predictions of the algorithm, by using TD-error as the <i>advantage</i> function.
+The REINFORCE, REINFORCE with baseline, and Actor Critic Methods are all improvements on the Policy Gradient Algorithm. REINFORCE uses Monte Carlo Methods to use the sum of discounted rewards, or "return", as the <i>advantage</i> function. REINFORCE with baseline improves upon this by using a value function as the baseline for each state, and this helps in reducing variance. However, Actor Critic Methods uses Temporal Difference Learning to bring about bias on the predictions of the algorithm, by using TD-error as the <i>advantage</i> function.
 
 The function approximators for both the Actor and the Critic are 2-layered Neural Networks. The learning rate of Critic is set slightly higher than the Actor to get faster convergence.
 
